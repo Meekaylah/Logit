@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "675700611568",
+    "firebase_url": "https://logit-96fe1-default-rtdb.firebaseio.com",
+    "project_id": "logit-96fe1",
+    "storage_bucket": "logit-96fe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675700611568:android:dcb65687c5b49b3478a535",
+        "android_client_info": {
+          "package_name": "com.logit_attendance.logit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675700611568-g0huqc6mjoitdvghnglnl42s86ndcp7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.logit_attendance.logit",
+            "certificate_hash": "cd780146f40d4ac6e369fce610fa5bc438ef63a7"
+          }
+        },
+        {
+          "client_id": "675700611568-0ak9lf4et59314ga61e0llodl980ito5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiiVyTIwDStE3Xtqx8tdBvyQ5rYoiTxxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675700611568-0ak9lf4et59314ga61e0llodl980ito5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

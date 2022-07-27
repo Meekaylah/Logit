@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Logit" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/light</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/light_Gray</item>
+        <item name="materialButtonStyle">@style/BlackButton</item>
+        <item name="android:fontFamily">@font/sahitya_bold</item>
+        <item name="android:editTextColor">@color/dark_Gray</item>
+    </style>
+
+    <style name="main">
+        <item name="android:background">@color/light</item>
+    </style>
+
+    <style name="logit">
+        <item name="android:src">@drawable/logo_dark</item>
+    </style>
+
+    <style name="BlackColor">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="BlackButton" parent="Widget.MaterialComponents.Button">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="cornerRadius">45dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/black</item>
+    </style>
+
+    <style name="GrayButton" >
+        <item name="backgroundTint">@color/darker_Gray</item>
+        <item name="android:paddingLeft">@dimen/_10sdp</item>
+    </style>
+
+    <style name="input" >
+        <item name="android:background">@color/dark_Gray</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:background">@drawable/inputfield</item>
+        <item name="android:fontFamily">@font/roboto_slab_variable_font_wght</item>
+    </style>
+
+    <style name="EditTextStyle_Login_SignUp" parent="EditTextStyle">
+        <item name="android:layout_marginBottom">@dimen/_15sdp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:fontFamily">@font/sahitya_regular</item>
+    </style>
+
+    <style name="CheckBoxStyle">
+        <item name="android:buttonTint">@color/dark</item>
+    </style>
+
+</resources>

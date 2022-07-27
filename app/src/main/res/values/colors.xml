@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light">#FFFFFFFF</color>
+    <color name="light_menu">#F2F2F2</color>
+    <color name="light_transparent">#33FFFFFF</color>
+
+    <color name="dark">#101010</color>
+    <color name="dark_menu">#363636</color>
+    <color name="dark_transparent">#33000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="lighter_Gray">#F5F5F5</color>
+    <color name="light_Gray">#D3D3D3</color>
+
+    <color name="dark_Gray">#858585</color>
+    <color name="darker_Gray">#565656</color>
+    <color name="darkest_Gray">#323232</color>
+    <color name="trans_darker_Gray">#66565656</color>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#26FF00</color>
+    <color name="blue">#00A2FD</color>
+
+    <color name="unselected_light">#B6B6B6</color>
+    <color name="selected_light">#6E6E6E</color>
+    <color name="unselected_dark">#737373</color>
+    <color name="selected_dark">#FFFFFFFF</color>
+</resources>

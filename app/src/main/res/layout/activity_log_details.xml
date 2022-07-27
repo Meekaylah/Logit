@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        tools:context=".session_details">
+
+        <View
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rectangle_5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="10dp"
+            android:layout_height="11.22dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/back"
+            app:layout_constraintTop_toTopOf="@id/header"
+            app:layout_constraintStart_toStartOf="@id/header"
+            />
+
+        <TextView
+            android:id="@+id/log_details"
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="17dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center_horizontal"
+            android:text="Log Details"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/header"
+            app:layout_constraintEnd_toEndOf="@+id/header"
+            app:layout_constraintStart_toStartOf="@+id/header"
+            app:layout_constraintTop_toTopOf="@+id/header" />
+
+        <TextView
+            android:id="@+id/mms_android"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/roboto"
+            android:text="MMS Android Development"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/header" />
+
+        <View
+            android:id="@+id/sign_up_box"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/sign_up_box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mms_android" />
+
+        <TextView
+            android:id="@+id/sign_out"
+            android:layout_width="0dp"
+            android:layout_height="39dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/sahitya"
+            android:text="SIGN OUT"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginEnd="95dp"
+            android:gravity="center_vertical|center_horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/sign_up_box"
+            app:layout_constraintStart_toStartOf="@+id/sign_up_box"
+            app:layout_constraintTop_toTopOf="@+id/sign_up_box" />
+
+        <View
+            android:id="@+id/info_box"
+            android:layout_width="0dp"
+            android:layout_height="551dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="20dp"
+            android:paddingVertical="20dp"
+            android:background="@drawable/rectangle_7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_up_box" />
+
+        <TextView
+            android:id="@+id/teacher_head"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/sahitya"
+            android:text="Teacher:"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toTopOf="@+id/info_box" />
+
+        <TextView
+            android:id="@+id/teacher_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="Mr. Adesipe Adeola"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toBottomOf="@+id/teacher_head" />
+
+        <TextView
+            android:id="@+id/date_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="93dp"
+            android:text="Date:"
+            android:fontFamily="@font/sahitya"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toTopOf="@+id/info_box" />
+
+        <TextView
+            android:id="@+id/date_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="14th of June, 2022"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toBottomOf="@+id/date_name" />
+
+        <TextView
+            android:id="@+id/class_began"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="183dp"
+            android:text="Class Began:"
+            android:fontFamily="@font/sahitya"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toTopOf="@+id/info_box" />
+
+        <TextView
+            android:id="@+id/began_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="1:03 PM"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toBottomOf="@+id/class_began" />
+
+        <TextView
+            android:id="@+id/sign_in_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="273dp"
+            android:text="Time of Sign In:"
+            android:fontFamily="@font/sahitya"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toTopOf="@+id/info_box" />
+
+        <TextView
+            android:id="@+id/time_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="1:03 PM"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toBottomOf="@+id/sign_in_time" />
+
+        <TextView
+            android:id="@+id/class_end"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="363dp"
+            android:text="Class Ended:"
+            android:fontFamily="@font/sahitya"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toTopOf="@+id/info_box" />
+
+        <TextView
+            android:id="@+id/end_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="3:03 PM"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toBottomOf="@+id/class_end" />
+
+        <TextView
+            android:id="@+id/sign_out_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="453dp"
+            android:text="Time of Sign Out:"
+            android:fontFamily="@font/sahitya"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toTopOf="@+id/info_box" />
+
+        <TextView
+            android:id="@+id/time_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="NOT SIGNED OUT"
+            android:textColor="#0500FF"
+            android:textFontWeight="700"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/info_box"
+            app:layout_constraintTop_toBottomOf="@+id/sign_out_time" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

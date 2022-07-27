@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/scan"
+        android:iconTint="@color/blue"
+        android:title="Scanner"
+        android:icon="@drawable/ic_qr_code_scanner_light"/>
+
+    <item
+        android:id="@+id/history"
+        android:title="History"
+        android:icon="@drawable/ic_history_light"/>
+
+
+</menu>

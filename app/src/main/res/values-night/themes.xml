@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Logit" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dark</item>
+        <item name="materialButtonStyle">@style/BlackButton</item>
+        <item name="android:fontFamily">@font/sahitya_bold</item>
+    </style>
+
+    <style name="main">
+        <item name="android:background">@color/dark</item>
+    </style>
+
+    <style name="logit">
+        <item name="android:src">@drawable/logo_light</item>
+    </style>
+
+    <style name="BlackColor">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BlackButton" parent="Widget.MaterialComponents.Button">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="cornerRadius">45dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <style name="GrayButton" >
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:background">@drawable/inputfield</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="EditTextStyle_Login_SignUp" parent="EditTextStyle">
+        <item name="android:layout_marginBottom">@dimen/_15sdp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:fontFamily">@font/sahitya_regular</item>
+    </style>
+
+    <style name="CheckBoxStyle">
+        <item name="android:buttonTint">@color/light</item>
+    </style>
+
+</resources>
